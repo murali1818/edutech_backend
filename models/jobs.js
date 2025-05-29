@@ -12,5 +12,5 @@ const jobSchema = new mongoose.Schema({
   isActive: { type: Boolean, default: true },
   applicants: [{ type: mongoose.Schema.Types.ObjectId, ref: 'User' }],
 });
-
+// Method to add an applicant
 module.exports = mongoose.model('Job', jobSchema);
