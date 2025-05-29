@@ -1,5 +1,5 @@
 const express = require('express');
-const Job = require('../models/jobs');
+const Job = require('../models/Jobs');
 const User = require('../models/User');
 const { authUser, authRole } = require('../middleware/auth');
 
